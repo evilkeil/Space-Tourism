@@ -9,8 +9,10 @@ module.exports = {
   mode: 'development',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
-    }),
+      title: 'Space Tourism',
+      filename:'home.html',
+      template: 'src/assets/html/home.html'
+    })
   ],
   output: {
     filename: 'bundle.js',
