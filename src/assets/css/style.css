@@ -29,14 +29,17 @@ body{
      display: flex;
      align-items: center;
      justify-content: space-between;
-        border:  1px solid white;
+    
 }
 nav{
-    width: 50%;
+    width: 75%;
     height: 100%;
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: rgba(11,13,23, 0.4);
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px);
+    
 }
 
 nav a{
@@ -48,11 +51,16 @@ nav ul{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 100px;
-    margin-left: 120px;
-    /* justify-content: space-between; */
+    gap: 150px;
+    margin-left: 170px;
+   
 }
 
+nav li{
+    
+    width: 130px;
+    text-align: center;
+}
 
 h1{
     color: var(--main-color);
