@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "Space Tourism multi page website created for Front end Mentor challange",
   "private": true,
+  "repository": {
+    "url": "git+https://github.com/evilkeil/ Space-Tourism.git"
+  },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kevin Keil",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
+    "gh-pages": "^6.0.0",
     "html-webpack-plugin": "^5.5.3",
     "json5": "^2.2.3",
     "style-loader": "^3.3.3",

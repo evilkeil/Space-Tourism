@@ -10,7 +10,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Space Tourism',
-      filename:'home.html',
+      filename:'index.html',
       template: 'src/assets/html/home.html'
     })
   ],
