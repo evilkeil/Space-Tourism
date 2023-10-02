@@ -18,5 +18,15 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color:var(--secondary-color);
     
 }
+
+#navbar{
+    color: var(--main-color);
+}
+
+h1{
+    color: var(--main-color);
+}
+
