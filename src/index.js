@@ -1,3 +1,4 @@
-import json from './assets/data/data.json';
+// import json from './assets/data/data.json';
 
-console.log(json.destinations);
+ import './assets/css/style.css';
+ 
