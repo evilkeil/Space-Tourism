@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    /* color variables */
+
+    --main-color:#FFFFFF;
+    --secondary-color:#D0D6F9;
+    --miscellaneous-color:#0B0D17;
+}
 body{
     margin: 0;
     padding: 0;
