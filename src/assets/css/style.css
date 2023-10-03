@@ -166,11 +166,15 @@ h5{
     margin-bottom: 10vh;
     justify-content: space-between;
     align-items: flex-end;
+    height: 500px;
+    position: relative;
+    /* border: 1px solid red; */
 }
 .hero{
-   
-    width: 18%;
     
+    width: max-content;
+   margin-left: 300px;
+   margin-bottom: 50px;
 }
 
 .trigger{
@@ -183,12 +187,16 @@ h5{
     align-items: center;
     justify-content: center;
     margin-right: calc( 274px/2);
-    margin-bottom: calc( (274px/2)/2);
+    /* margin-bottom: calc( (274px/2)/2); */
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    
+    
 }
 .btn{
     width: 274px;
     height: 274px;
-    z-index: 1;
     border-radius: 50%;
     background-color: var(--main-color);
     z-index: 2;
