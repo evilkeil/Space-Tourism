@@ -194,6 +194,21 @@ h5{
     
     
 }
+
+.trigger:hover{
+    cursor: pointer;
+}
+
+.trigger:hover .btn{
+    transform: scale(1.3);
+    border: 50px solid #979797;
+
+}
+.trigger:hover .btn h4{
+    transform: scale(0.77);
+   
+
+}
 .btn{
     width: 274px;
     height: 274px;
