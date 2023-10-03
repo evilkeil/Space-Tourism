@@ -35,10 +35,12 @@ body{
     -o-background-size: cover;
     background-size: cover;
     color:var(--secondary-color);
+
+    position: relative;
     
 }
 
-#navbar{
+/* #navbar{
     color: var(--main-color);
      margin-top: 48px;
      height: 80px;
@@ -46,6 +48,21 @@ body{
      align-items: center;
      justify-content: space-between;
     
+} */
+
+#navbar {
+    color: var(--main-color);
+    margin-top: 48px; /* Add your desired margin-top value */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(11, 13, 23, 0.4);
+    z-index: 1000;
 }
 nav{
     width: 75%;
@@ -139,6 +156,7 @@ h5{
 
 .content-wrapper{
     display: flex;
+    margin-top: 10%;
 }
 .hero{
     border: 1px solid red;
