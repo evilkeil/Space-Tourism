@@ -28,15 +28,15 @@ font-family: 'Roboto', sans-serif; */
 body{
     margin: 0;
     padding: 0;
-    max-height: 100vh;
+    height: 100vh;
     background: url(../images/home/background-home-desktop.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color:var(--secondary-color);
-
     position: relative;
+   
     
 }
 
@@ -155,12 +155,19 @@ h5{
 }
 
 .content-wrapper{
+    border: 1px solid red;
     display: flex;
-    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    
 }
 .hero{
-    border: 1px solid red;
+   
     width: 18%;
+    
 }
 
 .trigger{
