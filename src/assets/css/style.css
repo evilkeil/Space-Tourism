@@ -29,6 +29,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    max-height: 100vh;
     background: url(../images/home/background-home-desktop.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -36,6 +37,7 @@ body{
     background-size: cover;
     color:var(--secondary-color);
     position: relative;
+    overflow: hidden
    
     
 }
@@ -155,14 +157,15 @@ h5{
 }
 
 .content-wrapper{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30vh;
     margin-bottom: 10vh;
-    
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .hero{
    
@@ -176,6 +179,11 @@ h5{
     z-index: 1;
     border-radius: 50%;
     background-color: #979797;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: calc( 274px/2);
+    margin-bottom: calc( (274px/2)/2);
 }
 .btn{
     width: 274px;
