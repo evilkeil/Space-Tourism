@@ -122,9 +122,46 @@ h1{
     font-size: var(--heading-1-size);
    
 }
+
+h4{
+    font-family: 'Bellefair', serif;
+    color: var(--miscellaneous-color); 
+    font-size: var(--heading-4-size);
+    
+}
+
 h5{
     font-family: 'Barlow Condensed', sans-serif;
     color: var(--secondary-color);
     font-size: var(--heading-5-size);
     letter-spacing: 4.75;
 }
+
+.content-wrapper{
+    display: flex;
+}
+.hero{
+    border: 1px solid red;
+    width: 18%;
+}
+
+.trigger{
+    width: 274px;
+    height: 274px;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: #979797;
+}
+.btn{
+    width: 274px;
+    height: 274px;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
