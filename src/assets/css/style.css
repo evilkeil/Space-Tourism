@@ -108,4 +108,8 @@ h1{
     border-bottom: 1px solid var(--main-color);
 }
 
-
+h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--secondary-color);
+    font-size: 28px;
+}
