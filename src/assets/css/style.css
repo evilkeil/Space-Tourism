@@ -16,6 +16,14 @@ font-family: 'Roboto', sans-serif; */
     --main-color:rgba(255, 255, 255);
     --secondary-color:#D0D6F9;
     --miscellaneous-color:#0B0D17;
+
+    /* font size variables */
+
+    --heading-1-size:150px;
+    --heading-2-size:100px;
+    --heading-3-size:56px;
+    --heading-4-size:32px;
+    --heading-5-size:28px;
 }
 body{
     margin: 0;
@@ -111,5 +119,5 @@ h1{
 h5{
     font-family: 'Barlow Condensed', sans-serif;
     color: var(--secondary-color);
-    font-size: 28px;
+    font-size: var(--heading-5-size);
 }
