@@ -116,8 +116,15 @@ h1{
     border-bottom: 1px solid var(--main-color);
 }
 
+h1{
+    font-family: 'Bellefair', serif;
+    color: var(--main-color);
+    font-size: var(--heading-1-size);
+   
+}
 h5{
     font-family: 'Barlow Condensed', sans-serif;
     color: var(--secondary-color);
     font-size: var(--heading-5-size);
+    letter-spacing: 4.75;
 }
