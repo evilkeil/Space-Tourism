@@ -83,7 +83,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    color:var(--main-color)
+    color:var(--main-color);
 }
 
 nav ul{
@@ -177,6 +177,7 @@ h5{
    margin-bottom: 50px;
 }
 
+
 .trigger{
     width: 274px;
     height: 274px;
@@ -187,14 +188,11 @@ h5{
     align-items: center;
     justify-content: center;
     margin-right: calc( 274px/2);
-    /* margin-bottom: calc( (274px/2)/2); */
-    position: absolute;
-    bottom: 50px;
-    right: 0;
+    margin-bottom: calc( (274px/2)/2);
+    
     
     
 }
-
 .trigger:hover{
     cursor: pointer;
 }
