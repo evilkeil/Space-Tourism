@@ -213,7 +213,7 @@ nav li:hover{
         background: var(--foreground);
         border-radius: 9999px;
         transform-origin: left center;
-        transition: opacity var(--animation-timing),width var(--animation-timing);
+        transition: opacity var(--animation-timing),width var(--animation-timing),rotate var(--animation-timing), translate var(--animation-timing);
 
     }
 
