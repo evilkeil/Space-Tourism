@@ -89,7 +89,7 @@ h5{
 }
 .hero{
     
-    width: max-content;
+   width: max-content;
    margin-left: 300px;
    margin-bottom: 50px;
 }
@@ -163,7 +163,7 @@ h5{
         justify-content: center;
         overflow-x: hidden; 
         overflow: hidden;
-        border: 5px solid red;
+        
     }
     .content-wrapper{
         display: flex;
@@ -178,11 +178,23 @@ h5{
         position: relative;   
     }
     .hero{
-    
-        width: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
         margin-top: 15%;
         margin-left:0;
+        
        
+    }
+    .home-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        text-align: center;
     }
     .trigger{
     
@@ -195,5 +207,6 @@ h5{
         
         
     }
+   
     
 }
