@@ -243,12 +243,15 @@ nav li:hover{
     }
 
     nav {
+        translate: 100%;
+        transition:  translate var(--animation-timing);
         position: fixed;
         top: 0;
         right: 0;
         height: 100%;
         width: 60%;
         z-index: 1;
+        
     }
     nav ul {
         display: flex;
@@ -261,5 +264,9 @@ nav li:hover{
     nav li {
         width: 100%;
         justify-content: flex-start;
+    }
+
+    .hamburger-menu:has(input:checked)+ nav{
+        translate: 0;
     }
 }
