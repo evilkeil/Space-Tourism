@@ -1,3 +1,9 @@
+:root{
+    --bar-width:40px;
+    --bar-height:8px;
+    --hamburger-gap:5px;
+}
+
 
 #navbar {
     color: var(--main-color);
