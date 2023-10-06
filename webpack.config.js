@@ -2,23 +2,30 @@ const path = require('path');
 const json5 = require('json5');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const pages = ["index", "destination","crew","technology"];
 module.exports = {
-  entry: {
-    home:'./src/index.js',
-    destination:'./src/destination.js',
-    crew:'./src/crew.js',
-    technology:'./src/technology.js',
+  entry: pages.reduce((config, page) => {
+    config[page] = `./src/${page}.js`;
+    return config;
+  }, {}),
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
   },
   devtool: 'inline-source-map',
   mode: 'development',
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: 'Space Tourism',
-      filename:'index.html',
-      template: 'src/assets/html/home.html'
-    })
-  ],
+  plugins: [].concat(
+    pages.map(
+      (page) =>
+        new HtmlWebpackPlugin({
+          inject: true,
+          template: `./src/assets/html/${page}.html`,
+          filename: `${page}.html`,
+          chunks: [page],
+        })
+    )
+  ),
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
