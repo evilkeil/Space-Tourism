@@ -4,7 +4,12 @@ const json5 = require('json5');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    home:'./src/index.js',
+    destination:'./src/destination.js',
+    crew:'./src/crew.js',
+    technology:'./src/technology.js',
+  },
   devtool: 'inline-source-map',
   mode: 'development',
   plugins: [
@@ -15,7 +20,7 @@ module.exports = {
     })
   ],
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
