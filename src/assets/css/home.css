@@ -24,6 +24,9 @@ font-family: 'Roboto', sans-serif; */
     --heading-3-size:56px;
     --heading-4-size:32px;
     --heading-5-size:28px;
+
+    /*other sizings */
+    --circle-radius:274px;
 }
 body{
     margin: 0;
@@ -96,8 +99,8 @@ h5{
 
 
 .trigger{
-    width: 274px;
-    height: 274px;
+    width: var(--circle-radius);
+    height: var(--circle-radius);
     z-index: 1;
     border-radius: 50%;
     background-color: #979797;
@@ -206,7 +209,40 @@ h5{
         
         
         
+    }   
+}
+
+/*mobile*/
+
+@media (max-width: 480px){
+    .trigger{
+        width: calc(var(--circle-radius)/1.5);
+        height: calc(var(--circle-radius)/1.5);
     }
-   
+
+    .btn{
+        width: calc(var(--circle-radius)/1.5);
+        height: calc(var(--circle-radius)/1.5);
+    }
+
+    .hero h1{
+        
+        font-size: calc(var(--heading-1-size)/1.5);
+       
+    }
+    .hero h4{ 
+        font-size: calc(var(--heading-4-size)/1.2);
+        
+    }
+
+    .hero p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+   .content-wrapper{
+    width: fit-content;
+   }
     
+
 }

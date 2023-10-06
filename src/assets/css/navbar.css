@@ -269,4 +269,12 @@ nav li:hover{
     .hamburger-menu:has(input:checked)+ nav{
         translate: 0;
     }
+    .logo{
+        margin-left:0 ;
+    }
+   
+    #navbar{
+        margin: 0;
+        /* border: 1px solid red; */
+    }
 }
