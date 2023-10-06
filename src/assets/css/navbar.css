@@ -23,7 +23,7 @@
     background-color: rgba(11, 13, 23, 0.4);
     z-index: 1000;
 }
-nav{
+#main-nav{
     width: 75%;
     height: 100%;
     display: flex;
@@ -38,12 +38,12 @@ nav{
     
 }
 
-nav a{
+#main-nav a{
     text-decoration: none;
     color:var(--main-color);
 }
 
-nav ul{
+#main-nav ul{
     list-style: none;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ nav ul{
    
 }
 
-nav li{
+#main-nav li{
     
     width: 130px;
     height: 80px;
@@ -61,7 +61,7 @@ nav li{
     align-items: center;
     justify-content: center;
 }
-nav li:hover{
+#main-nav li:hover{
     cursor: pointer;
     border-bottom:1px solid rgba(255,255,255,0.5);
 }
@@ -107,7 +107,7 @@ nav li:hover{
         margin-top: 0;
 
     }
-    nav{
+    #main-nav{
         width: 70%;
         height: 100%;
         display: flex;
@@ -121,7 +121,7 @@ nav li:hover{
         letter-spacing: 2.7;
         
     }
-    nav ul{
+    #main-nav ul{
         list-style: none;
         display: flex;
         align-items: center;
@@ -130,7 +130,7 @@ nav li:hover{
         margin-right: 10px;
        
     }
-    nav li{
+    #main-nav li{
         width: fit-content;
         height: 80px;
         text-align: center;
@@ -153,7 +153,7 @@ nav li:hover{
         margin-top: 0;
 
     }
-    nav{
+    #main-nav{
         width: 70%;
         height: 100%;
         display: flex;
@@ -168,7 +168,7 @@ nav li:hover{
         
         
     }
-    nav ul{
+    #main-nav ul{
         list-style: none;
         display: flex;
         align-items: center;
@@ -177,7 +177,7 @@ nav li:hover{
         margin-right: 15%;
        
     }
-    nav li{
+    #main-nav li{
         width: fit-content;
         height: 80px;
         text-align: center;
@@ -242,7 +242,7 @@ nav li:hover{
         translate: 0 calc(var(--bar-height)/2);
     }
 
-    nav {
+    #main-nav {
         translate: 100%;
         transition:  translate var(--animation-timing);
         position: fixed;
@@ -253,7 +253,7 @@ nav li:hover{
         z-index: 1;
         
     }
-    nav ul {
+    #main-nav ul {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -261,12 +261,12 @@ nav li:hover{
         padding-top: 70%;
         margin: 0;
     }
-    nav li {
+    #main-nav li {
         width: 100%;
         justify-content: flex-start;
     }
 
-    .hamburger-menu:has(input:checked)+ nav{
+    .hamburger-menu:has(input:checked)+ #main-nav{
         translate: 0;
     }
     .logo{

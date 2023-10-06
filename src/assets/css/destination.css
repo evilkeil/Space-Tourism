@@ -40,6 +40,24 @@ body{
     background-size: cover;
     color:var(--secondary-color);
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    
    
 }
+
+.destination-content{
+    border: 1px solid red;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#destination-nav{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* img{
+    width: 500px;
+    height: 500px;
+} */
