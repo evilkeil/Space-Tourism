@@ -54,8 +54,33 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.destination-img{
+    width: 40%;
+}
+
+.destination-main{
+    width: 30%;
+    height: 100%;
+}
 #destination-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10%;
+    /* background-color: purple; */
+}
+#destination-nav ul{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    list-style: none;
     font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 }
 /* img{
     width: 500px;
