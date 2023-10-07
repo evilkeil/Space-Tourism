@@ -101,8 +101,12 @@ body{
 
 .description-main{
     position: relative;
+    display: none;
 }
 
+.visible{
+    display: block;
+}
 
 .data{
     margin-top: 1rem;
@@ -117,3 +121,4 @@ body{
 .sub-one{
     margin-top: 1rem;
 }
+
