@@ -81,3 +81,7 @@ body{
     height: 70%;
 }
 
+#destination-nav li:hover{
+    cursor: pointer;
+    border-bottom:1px solid rgba(255,255,255,0.5);
+}
