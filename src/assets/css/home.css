@@ -17,14 +17,6 @@ font-family: 'Roboto', sans-serif; */
     --secondary-color:#D0D6F9;
     --miscellaneous-color:#0B0D17;
 
-    /* font size variables */
-
-    --heading-1-size:150px;
-    --heading-2-size:100px;
-    --heading-3-size:56px;
-    --heading-4-size:32px;
-    --heading-5-size:28px;
-
     /*other sizings */
     --circle-radius:274px;
 }
@@ -44,37 +36,6 @@ body{
     
 }
 
-/* #navbar{
-    color: var(--main-color);
-     margin-top: 48px;
-     height: 80px;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-    
-} */
-
-
-h1{
-    font-family: 'Bellefair', serif;
-    color: var(--main-color);
-    font-size: var(--heading-1-size);
-   
-}
-
-h4{
-    font-family: 'Bellefair', serif;
-    color: var(--miscellaneous-color); 
-    font-size: var(--heading-4-size);
-    
-}
-
-h5{
-    font-family: 'Barlow Condensed', sans-serif;
-    color: var(--secondary-color);
-    font-size: var(--heading-5-size);
-    letter-spacing: 4.75px;
-}
 
 .content-wrapper{
     /* border: 1px solid red; */
