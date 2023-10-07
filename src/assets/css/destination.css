@@ -113,3 +113,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.sub-one{
+    margin-top: 1rem;
+}
