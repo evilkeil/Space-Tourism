@@ -117,6 +117,10 @@ body{
     margin-bottom: 10px;
 }
 
+#btn-text{
+    color: var(--miscellaneous-color);
+}
+
 
 /* layout for tablets */
 @media (max-width:912px){
