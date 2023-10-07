@@ -107,5 +107,9 @@ body{
 .data{
     margin-top: 1rem;
     padding-top: 2rem;
-    border-top: 1px solid rgba(255,255,255,0.2) ;
+    border-top: 1px solid rgba(255,255,255,0.2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

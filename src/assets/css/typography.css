@@ -80,6 +80,7 @@ nav{
 .sub-heading-1{
     font-family: 'Bellefair', serif;
     font-size: var(--sub-heading-1-size);
+    color: var(--main-color);
 }
 
 .sub-heading-2{
