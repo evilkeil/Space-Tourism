@@ -58,3 +58,9 @@ h5{
     font-size: var(--heading-5-size);
     letter-spacing: 4.75px;
 }
+
+nav{
+    font-family: 'Barlow Condensed', sans-serif;  
+    color: var(--main-color);
+    letter-spacing: 2.35px;
+}

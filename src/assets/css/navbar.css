@@ -32,9 +32,8 @@
     backdrop-filter: blur(8px); 
     -webkit-backdrop-filter: blur(8px);
     z-index: 1;
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 16px;
-    letter-spacing: 2.7;
+   
     
 }
 

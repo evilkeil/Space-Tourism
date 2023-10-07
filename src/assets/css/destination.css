@@ -40,11 +40,13 @@ body{
 }
 
 .destination-content{
-    border: 1px solid red;
     width: 70vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+#destination-descriptions{
+    border: 1px solid red;
 }
 
 .destination-img{
@@ -68,7 +70,6 @@ body{
     width: 50%;
     height: 100%;
     list-style: none;
-    font-family: 'Barlow Condensed', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
