@@ -11,6 +11,12 @@ font-family: 'Roboto', sans-serif; */
 }
 
 :root{
+      /* color variables */
+
+      --main-color:rgba(255, 255, 255);
+      --secondary-color:#D0D6F9;
+      --miscellaneous-color:#0B0D17;
+
 
     /* font size variables */
 
@@ -20,8 +26,14 @@ font-family: 'Roboto', sans-serif; */
     --heading-4-size:32px;
     --heading-5-size:28px;
 
+    --sub-heading-1-size:28px;
+    --sub-heading-2-size:14px;
+
 }
 
+body{
+    color: var(--secondary-color);
+}
 
 
 h1{
@@ -62,5 +74,19 @@ h5{
 nav{
     font-family: 'Barlow Condensed', sans-serif;  
     color: var(--main-color);
+    letter-spacing: 2.7px;
+}
+
+.sub-heading-1{
+    font-family: 'Bellefair', serif;
+    font-size: var(--sub-heading-1-size);
+}
+
+.sub-heading-2{
+    font-family: 'Barlow Condensed', sans-serif; 
+    font-size: var(--sub-heading-2-size);
     letter-spacing: 2.35px;
+}
+p{
+    color: var(--main-color);
 }

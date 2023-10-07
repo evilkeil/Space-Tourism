@@ -49,6 +49,7 @@ body{
     border: 1px solid red;
 }
 
+
 .destination-img{
     width: 40%;
 }
@@ -72,6 +73,7 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
     align-items: flex-start;
     
 }
