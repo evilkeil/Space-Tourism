@@ -59,7 +59,7 @@ h3{
 
 h4{
     font-family: 'Bellefair', serif;
-    color: var(--miscellaneous-color); 
+    color: var(--main-color); 
     font-size: var(--heading-4-size);
     
 }
@@ -89,4 +89,5 @@ nav{
 }
 p{
     color: var(--main-color);
+    line-height: 30px;
 }

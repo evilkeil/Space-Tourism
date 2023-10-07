@@ -42,21 +42,34 @@ body{
 .destination-content{
     width: 70vw;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    gap: 12rem;
     align-items: center;
 }
 #destination-descriptions{
     border: 1px solid red;
+}
+#destination-descriptions h2{
+    margin: 1rem 0;
+}
+#destination-descriptions p{
+    margin: 1rem 0;
 }
 
 
 .destination-img{
     width: 40%;
 }
+.destination-img h4{
+    margin-top: 0;
+}
 
 .destination-main{
     width: 30%;
     height: 100%;
+    margin-top: 10%;
+    margin-right: 13%;
 }
 #destination-nav{
     display: flex;
