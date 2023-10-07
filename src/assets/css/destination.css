@@ -54,7 +54,7 @@ body{
     margin: 1rem 0;
 }
 #destination-descriptions p{
-    margin: 1rem 0;
+    margin: 1rem 0 2rem;
 }
 
 
@@ -103,16 +103,9 @@ body{
     position: relative;
 }
 
-.description-main:after{
-    content: "";
-    display: block;
-    /* border-bottom: 5px solid rgba(255,255,255,0.2); */
-    height: 1px;
-    width: 100%;
-    border: 1px solid rgba(255,255,255,0.2);
-    
-    position: absolute;
-    z-index: 2;
-    bottom: -2.5rem;
-    left: 0;
+
+.data{
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.2) ;
 }
