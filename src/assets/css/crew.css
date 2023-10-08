@@ -123,3 +123,13 @@ color: var(--secondary-color);;
 .visible{
     display: block;
 }
+
+/* Responsive css */
+
+/* layout for tablets */
+@media (max-width:912px){
+    body{
+        background-image: url(../images/crew/background-crew-tablet.jpg);
+    }
+    
+}
