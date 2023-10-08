@@ -11,7 +11,7 @@ const img = document.querySelector('[data-destination-image]');
 const descriptions = document.querySelectorAll('.description-main'); //grab all the descriptions
 const nav = document.querySelector('[data-destination-nav]'); //grab the destination nav
 
-
+img.src = moon;
 
 nav.addEventListener('click',(e)=>{
     const target = e.target;
@@ -20,6 +20,7 @@ nav.addEventListener('click',(e)=>{
         const selected = target.textContent;
         removeVisibilityClass(descriptions);
         addVisibilityClass(selected,descriptions);
+        addImage(selected);
     }
 })
 
@@ -36,4 +37,18 @@ function addVisibilityClass(id,array){
             element.classList.add('visible')
         }
     });
+}
+
+function addImage(id){
+    const temp = id.toLowerCase();
+    if(temp === "moon"){
+        img.src = moon;
+    }else if(temp === "mars"){
+        img.src = mars;
+    }else if(temp === "titan"){
+        img.src = titan;
+    }else if(temp === "europa"){
+        img.src = europa;
+    }
+   
 }
