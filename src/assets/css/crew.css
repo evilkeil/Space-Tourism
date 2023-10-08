@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Barlow+Condensed&family=Bebas+Neue&family=Bellefair&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+/* font-family: 'ADLaM Display', cursive;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Bellefair', serif;
+font-family: 'Roboto', sans-serif; */
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    /* color variables */
+
+    --main-color:rgba(255, 255, 255);
+    --secondary-color:#D0D6F9;
+    --miscellaneous-color:#0B0D17;
+
+    /*other sizings */
+    --circle-radius:274px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+    background: url(../images/crew/background-crew-desktop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:var(--secondary-color);
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    
+   
+}
