@@ -114,3 +114,10 @@ color: var(--secondary-color);;
 
 }
 
+.crew-description{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
