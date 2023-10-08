@@ -90,5 +90,6 @@ nav{
 }
 p{
     color: var(--main-color);
+    font-size: 18px;
     line-height: 30px;
 }
