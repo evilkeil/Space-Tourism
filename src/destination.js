@@ -13,5 +13,27 @@ const nav = document.querySelector('[data-destination-nav]'); //grab the destina
 
 
 
+nav.addEventListener('click',(e)=>{
+    const target = e.target;
+    if(!(target.tagName.toLowerCase() === 'li')) return;
+    else{
+        const selected = target.textContent;
+        removeVisibilityClass(descriptions);
+        addVisibilityClass(selected,descriptions);
+    }
+})
 
-img.src= moon;
+
+function removeVisibilityClass(array){
+    array.forEach(element => {
+        element.classList.remove('visible');
+    });
+}
+
+function addVisibilityClass(id,array){
+    array.forEach(element=>{
+        if(element.id === id){
+            element.classList.add('visible')
+        }
+    });
+}
