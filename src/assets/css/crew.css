@@ -106,7 +106,9 @@ color: var(--secondary-color);;
     width: 15px;
     height: 15px;
 }
-
+.current-crew li:hover{
+    cursor: pointer;
+}
 .current-crew .selected{
     background-color: var(--main-color);
 
