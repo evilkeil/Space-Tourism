@@ -34,7 +34,67 @@ body{
     position: relative;
     overflow: hidden;
     display: grid;
-    place-content: center;
+    justify-content: center;
+    align-items: end;
     
    
+}
+
+.header{
+    
+    /* margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 7%; */
+}
+
+.content{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0;
+    /* justify-content: space-between; */
+    margin: 0;
+    height: 90%;
+   
+}
+
+.main-content{
+    width: 35%;
+    padding-top: 3%;
+    /* border: 1px solid red; */
+    display:flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-left: 10%;
+}
+.crew-image{
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+.crew-image img{
+    /* width: 100%;
+    height: 70%; */
+    height: 95%;
+}
+
+.description-wrapper{
+    flex:1; /*makes the element fill the rest of the container*/
+}
+
+.crew-position{
+    margin-bottom: 0;
+}
+
+.crew-name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.crew-info{
+width: 70%;
+color: var(--secondary-color);;
 }
