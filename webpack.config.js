@@ -23,6 +23,7 @@ module.exports = {
           template: `./src/assets/html/${page}.html`,
           filename: `${page}.html`,
           chunks: [page],
+          title:"SPACE TOURISM",
         })
     )
   ),
