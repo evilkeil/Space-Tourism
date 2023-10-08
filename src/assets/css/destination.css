@@ -47,9 +47,7 @@ body{
     gap: 12rem;
     align-items: center;
 }
-#destination-descriptions{
-    /* border: 1px solid red; */
-}
+
 #destination-descriptions h2{
     margin: 1rem 0;
 }
