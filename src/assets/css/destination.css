@@ -128,6 +128,9 @@ body{
 
 /* layout for tablets */
 @media (max-width:912px){
+    body{
+        background-image: url(../images/destination/background-destination-tablet.jpg);
+    }
     .destination-content{
         flex-direction: column;
         gap: 0;
