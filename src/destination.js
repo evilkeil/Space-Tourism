@@ -10,6 +10,7 @@ import europa from './assets/images/destination/image-europa.png';
 const img = document.querySelector('[data-destination-image]');
 const descriptions = document.querySelectorAll('.description-main'); //grab all the descriptions
 const nav = document.querySelector('[data-destination-nav]'); //grab the destination nav
+const destinations = document.querySelectorAll('[data-destination-ul] li')
 
 img.src = moon;
 
@@ -18,6 +19,8 @@ nav.addEventListener('click',(e)=>{
     if(!(target.tagName.toLowerCase() === 'li')) return;
     else{
         const selected = target.textContent;
+        removeActiveClass(destinations);
+        addActiveClass(target);
         removeVisibilityClass(descriptions);
         addVisibilityClass(selected,descriptions);
         addImage(selected);
@@ -51,4 +54,14 @@ function addImage(id){
         img.src = europa;
     }
    
+}
+
+function removeActiveClass(array){
+    array.forEach(element=>{
+        element.classList.remove('active');
+    })
+}
+
+function addActiveClass(target){
+    target.classList.add('active');
 }
