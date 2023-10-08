@@ -23,6 +23,7 @@ ul.addEventListener('click',(e)=>{
         addVisibleClass(selectedId,descriptions)
         removeSelectedClass(nav);
         addSelectedClass(nav,selectedId);
+        addImage(selectedId);
         // console.log(selectedId)
     }
 });
@@ -52,4 +53,17 @@ function addSelectedClass(arr,selected){
             element.classList.add('selected');
         }
     })
+}
+
+function addImage(selected){
+    if(selected === "commander"){
+        img.src = commander;
+    }else if(selected === "specialist"){
+        img.src = specialist;
+    }else if(selected === "pilot"){
+        img.src = pilot;
+    }else if(selected === "engineer"){
+        img.src = engineer;
+    }
+   
 }
