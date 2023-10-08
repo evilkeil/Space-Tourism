@@ -200,5 +200,34 @@ body{
        
     }
 
+    .destination-main{
+        width: 100%;
+    }
+    .data{
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .distance,
+    .time{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-one{
+        margin-top: 0.5rem;
+    }
  
+}
+
+/*tiny mobile*/
+
+@media (max-width: 320px){
+    #destination-nav ul{
+        width: 90%;
+    }
+    .destination-img h4{
+        text-align: center;
+    }
 }
