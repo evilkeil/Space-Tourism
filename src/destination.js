@@ -8,5 +8,10 @@ import titan from './assets/images/destination/image-titan.png';
 import europa from './assets/images/destination/image-europa.png';
 
 const img = document.querySelector('[data-destination-image]');
+const descriptions = document.querySelectorAll('.description-main'); //grab all the descriptions
+const nav = document.querySelector('[data-destination-nav]'); //grab the destination nav
+
+
+
 
 img.src= moon;
