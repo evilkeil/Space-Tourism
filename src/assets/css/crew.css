@@ -40,6 +40,7 @@ body{
    
 }
 
+
 .content{
     display: flex;
     width: 100%;
@@ -57,6 +58,7 @@ body{
     flex-direction: column;
     gap: 100px;
     margin-left: 10%;
+    position: relative;
 }
 .crew-image{
     display: flex;
@@ -74,6 +76,8 @@ body{
 
 .crew-position{
     margin-bottom: 0;
+    color: #979797;
+    
 }
 
 .crew-name{
@@ -84,3 +88,27 @@ body{
 width: 70%;
 color: var(--secondary-color);;
 }
+
+.current-crew{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+   position: absolute;
+   left: 0;
+   margin: 0;
+   margin-top: 120px;
+   padding: 0;
+}
+
+.current-crew li{
+    background-color: #979797;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.current-crew .selected{
+    background-color: var(--main-color);
+
+}
+

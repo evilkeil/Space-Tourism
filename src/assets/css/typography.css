@@ -61,6 +61,7 @@ h4{
     font-family: 'Bellefair', serif;
     color: var(--main-color); 
     font-size: var(--heading-4-size);
+    font-weight: 300;
     
 }
 
@@ -92,4 +93,9 @@ p{
     color: var(--main-color);
     font-size: 18px;
     line-height: 30px;
+}
+
+.number{
+    color: #979797;
+    font-weight: bold;
 }
