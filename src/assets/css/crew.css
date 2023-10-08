@@ -40,21 +40,11 @@ body{
    
 }
 
-.header{
-    
-    /* margin: 0;
-    position: absolute;
-    top: 15%;
-    left: 7%; */
-}
-
 .content{
-    /* border: 1px solid red; */
     display: flex;
     width: 100%;
     height: 50%;
     margin-bottom: 0;
-    /* justify-content: space-between; */
     margin: 0;
     height: 90%;
    
@@ -63,7 +53,6 @@ body{
 .main-content{
     width: 35%;
     padding-top: 3%;
-    /* border: 1px solid red; */
     display:flex;
     flex-direction: column;
     gap: 100px;
@@ -73,12 +62,9 @@ body{
     display: flex;
     align-items: flex-end;
     width: 30%;
-    /* border: 1px solid red; */
 }
 
 .crew-image img{
-    /* width: 100%;
-    height: 70%; */
     height: 95%;
 }
 
