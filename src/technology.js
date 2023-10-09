@@ -2,7 +2,19 @@ import './assets/css/typography.css';
 import './assets/css/navbar.css';
 import './assets/css/technology.css';
 
+//vehicle
 import vehiclePortrait from './assets/images/technology/image-launch-vehicle-portrait.jpg';
+import vehicleLandscape from './assets/images/technology/image-launch-vehicle-landscape.jpg';
+
+//spaceport 
+
+import spacePortPortrait from './assets/images/technology/image-spaceport-portrait.jpg';
+import spacePortLandscape from './assets/images/technology/image-spaceport-landscape.jpg';
+
+//capsule
+
+import capsulePortrait from './assets/images/technology/image-space-capsule-portrait';
+import capsuleLandscape from './assets/images/technology/image-spaceport-landscape';
 
 
 const img = document.querySelector('[data-tech-img]');
