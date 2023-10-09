@@ -19,8 +19,11 @@ nav.addEventListener('click',(e)=>{
     const target = e.target;
     if(!(target.tagName.toLowerCase() === 'li')) return;
     else{
+        const selectedId = target.textContent;
         removeSelectedClass(li);
-        addSelectedClass(target)
+        addSelectedClass(target);
+        removeVisibleClass(text);
+        addVisibleClass(selectedId,text);
     }
     
 });
@@ -33,4 +36,16 @@ function removeSelectedClass(array){
 
 function addSelectedClass(element){
     element.classList.add('selected');
+}
+function removeVisibleClass(arr){
+    arr.forEach(element => {
+        element.classList.remove('visible');
+    })
+}
+function addVisibleClass(selectedId,arr){
+    arr.forEach(element =>{
+        if(element.id === selectedId){
+            element.classList.add('visible');
+        }
+    })
 }
