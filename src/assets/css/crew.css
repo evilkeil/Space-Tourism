@@ -216,6 +216,7 @@ height: 200px;
         text-align: center;
     }
     .crew-position{
+        margin-top: 50px;
         font-size: 16px;
     }
     .crew-name{
@@ -232,5 +233,20 @@ height: 200px;
     .crew-image{
         border-bottom: 1px solid rgba(255,255,255,0.2);
     }
-   
+    .content{
+        flex-direction: column-reverse;
+        margin-top: 0;
+        justify-content: center;
+    }
+    .main-content{
+        margin-top: 0px;  
+    }
+    .description-wrapper{
+        position: relative;
+    }
+    .current-crew{
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
 }
