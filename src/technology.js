@@ -13,8 +13,8 @@ import spacePortLandscape from './assets/images/technology/image-spaceport-lands
 
 //capsule
 
-import capsulePortrait from './assets/images/technology/image-space-capsule-portrait';
-import capsuleLandscape from './assets/images/technology/image-spaceport-landscape';
+import capsulePortrait from './assets/images/technology/image-space-capsule-portrait.jpg';
+import capsuleLandscape from './assets/images/technology/image-space-capsule-landscape.jpg';
 
 
 const img = document.querySelector('[data-tech-img]');
