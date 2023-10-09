@@ -19,8 +19,18 @@ nav.addEventListener('click',(e)=>{
     const target = e.target;
     if(!(target.tagName.toLowerCase() === 'li')) return;
     else{
-        
+        removeSelectedClass(li);
+        addSelectedClass(target)
     }
     
 });
 
+function removeSelectedClass(array){
+    array.forEach(element => {
+        element.classList.remove('selected');
+    });
+}
+
+function addSelectedClass(element){
+    element.classList.add('selected');
+}
