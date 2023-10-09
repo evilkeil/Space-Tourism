@@ -203,3 +203,34 @@ height: 200px;
     }
 }
 
+
+/*mobile*/
+
+@media (max-width: 480px){
+    body{
+        background-image: url(../images/crew/background-crew-mobile.jpg);
+        
+    }
+    .header h4{
+        width: 100vw;
+        text-align: center;
+    }
+    .crew-position{
+        font-size: 16px;
+    }
+    .crew-name{
+        font-size: 24px;
+    }
+    .crew-info{
+        font-size: 15px;
+    }
+
+    .crew-image img{
+        height: 350px;
+        width: 250px;
+    }
+    .crew-image{
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+   
+}
