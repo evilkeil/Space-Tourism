@@ -32,10 +32,32 @@ body{
     background-size: cover;
     color:var(--secondary-color);
     position: relative;
-    overflow: hidden  
+    overflow: hidden;
+    display: grid;
+    place-content: center;
 }
 
 .tech-img{
  width: 505px;
  height: 527px;
+}
+
+.content-wrapper{
+    display:flex ;
+}
+
+.tech-nav{
+    list-style: none;
+}
+
+.tech-nav li {
+    width: 80px;
+    height: 80px;
+    background-color: var(--miscellaneous-color);
+    color: var(--main-color);
+    border-radius: 50%;
+    border:  1px solid var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
