@@ -40,6 +40,11 @@
 #main-nav a{
     text-decoration: none;
     color:var(--main-color);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #main-nav ul{
