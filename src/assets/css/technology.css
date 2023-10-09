@@ -34,3 +34,8 @@ body{
     position: relative;
     overflow: hidden  
 }
+
+.tech-img{
+ width: 505px;
+ height: 527px;
+}
