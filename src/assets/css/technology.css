@@ -32,7 +32,5 @@ body{
     background-size: cover;
     color:var(--secondary-color);
     position: relative;
-    overflow: hidden
-   
-    
+    overflow: hidden  
 }
