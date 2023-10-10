@@ -82,7 +82,7 @@ body{
     color: var(--miscellaneous-color);
 }
 
-.text{
+/* .text{
     margin-left: 80px;
    margin-right: 180px;
    width: 500px;
@@ -91,7 +91,19 @@ body{
    align-items: center;
    justify-content: center;
    display: none;
-}
+} */
+
+.text {
+    margin-left: 80px;
+    margin-right: 180px;
+    width: 100%; /* Default to full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+ }
+
 .header h4{
     margin-left: 20%;
     width: 100%;
@@ -218,5 +230,42 @@ body{
 @media (max-width: 480px){
     body{
         background-image: url(../images/technology/background-technology-mobile.jpg);
+    }
+    .header h4{
+        font-size: 16px;   
+        text-align: center;
+    }
+    .nav-text{
+        font-size: 14px;
+    }
+    .text p{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .text{
+        width: 100% ;
+    }
+
+    .tech-nav li {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    h3{
+        font-size: 24px;
+        width: 100%;
+    }
+    .header{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 481px) {
+    .text {
+        width: 500px; /* Set a fixed width for screens wider than 480px */
     }
 }
