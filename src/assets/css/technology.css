@@ -212,3 +212,11 @@ body{
     }
     
 }
+
+/*mobile*/
+
+@media (max-width: 480px){
+    body{
+        background-image: url(../images/technology/background-technology-mobile.jpg);
+    }
+}
