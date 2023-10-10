@@ -151,8 +151,8 @@ body{
         justify-content: center;
     }
     .destination-content img{
-       width: 274px;
-       height: 274px;
+       width: 300px;
+       height: 300px;
        margin-top: 100px;
        margin-bottom: 20px;
     }
@@ -169,6 +169,28 @@ body{
 
     #destination-nav{
         justify-content: center;
+    }
+    #destination-header{
+        font-size: 24px;
+    }
+    .description-h2{
+        font-size: 80px;
+    }
+
+    .description-p{
+        font-size: 16px;
+        height: 120px;
+    }
+    .sub-heading-2{
+        text-align: center;
+    }
+    .sub-heading-1{
+        text-align: center;
+    }
+
+    .data{
+        margin-top: 10px;
+        padding-top: 10px;
     }
 }
 
@@ -220,6 +242,7 @@ body{
     .sub-one{
         margin-top: 0.5rem;
     }
+
  
 }
 
