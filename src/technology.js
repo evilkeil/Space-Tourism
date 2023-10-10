@@ -22,8 +22,23 @@ const nav = document.querySelector('[data-tech-nav]');
 const li = document.querySelectorAll('[data-tech-nav] li');
 const text = document.querySelectorAll('.text');
 
+const vehicle = {
+    portrait:vehiclePortrait,
+    landscape:vehicleLandscape
+}
+const space = {
+    portrait:spacePortPortrait,
+    landscape:spacePortLandscape
+}
+const capsule = {
+    portrait:capsulePortrait ,
+    landscape:capsuleLandscape
+}
 
-img.src = vehiclePortrait;
+
+let currentImg = vehicle;
+
+img.src = vehicle.portrait;
 
 
 
@@ -36,6 +51,8 @@ nav.addEventListener('click',(e)=>{
         addSelectedClass(target);
         removeVisibleClass(text);
         addVisibleClass(selectedId,text);
+        setImageNumber(selectedId);
+        setSrc()
     }
     
 });
@@ -61,3 +78,23 @@ function addVisibleClass(selectedId,arr){
         }
     })
 }
+
+function setImageNumber(n){
+if(n === "1"){
+    currentImg = vehicle
+}else if (n === "2"){
+    currentImg = space;
+}else if (n === "3"){
+    currentImg = capsule;
+}
+}
+
+function setSrc(){
+    const screenWidth = window.innerWidth;
+    if (screenWidth < 912){
+        img.src = currentImg.landscape;
+    }else{
+        img.src = currentImg.landscape;
+    }
+}
+
