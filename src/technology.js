@@ -38,8 +38,7 @@ const capsule = {
 
 let currentImg = vehicle;
 
-img.src = vehicle.portrait;
-
+setSrc();
 
 
 nav.addEventListener('click',(e)=>{
