@@ -177,7 +177,9 @@ body{
 
 @media (max-width: 480px){
     body{
-        background-image: url(../images/destination/background-destination-mobile.jpg)
+        background-image: url(../images/destination/background-destination-mobile.jpg);
+        height: 100%;
+        overflow-y: scroll;
     }
     .destination-img{
         width: 100%;
