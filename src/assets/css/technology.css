@@ -116,3 +116,26 @@ body{
 .visible{
     display: flex;
 }
+
+.landscape{
+    display: none;
+}
+
+
+
+
+
+
+/* Responsive css */
+
+
+
+/* layout for tablets */
+@media (max-width:912px){
+    .portrait{
+        display: none;
+        }
+    .landscape{
+        display: flex;
+    }
+}

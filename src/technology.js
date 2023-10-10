@@ -17,7 +17,9 @@ import capsulePortrait from './assets/images/technology/image-space-capsule-port
 import capsuleLandscape from './assets/images/technology/image-space-capsule-landscape.jpg';
 
 
-const img = document.querySelector('[data-tech-img]');
+const img = document.querySelector('[data-tech-img-portrait]');
+const imgLandscape = document.querySelector('[data-tech-img-landscape]');
+
 const nav = document.querySelector('[data-tech-nav]');
 const li = document.querySelectorAll('[data-tech-nav] li');
 const text = document.querySelectorAll('.text');
@@ -88,12 +90,9 @@ if(n === "1"){
 }
 }
 
-function setSrc(){
-    const screenWidth = window.innerWidth;
-    if (screenWidth < 912){
-        img.src = currentImg.landscape;
-    }else{
-        img.src = currentImg.landscape;
-    }
-}
-
+function setSrc() {
+    
+      img.src = currentImg.portrait; // Use portrait image for larger screens
+      imgLandscape.src = currentImg.landscape; // Use landscape image for smaller screens
+    
+  }
