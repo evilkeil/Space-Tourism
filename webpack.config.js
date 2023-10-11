@@ -2,6 +2,7 @@ const path = require('path');
 const json5 = require('json5');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const pages = ["index", "destination","crew","technology"];
 module.exports = {
   entry: pages.reduce((config, page) => {
@@ -23,9 +24,10 @@ module.exports = {
           template: `./src/assets/html/${page}.html`,
           filename: `${page}.html`,
           chunks: [page],
-          title:"SPACE TOURISM",
+          title: "SPACE TOURISM",
         })
-    )
+    ),
+    new MiniCssExtractPlugin({ filename: "[name].css" }), // Add this line
   ),
   output: {
     filename: '[name].js',
@@ -46,7 +48,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
