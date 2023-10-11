@@ -234,6 +234,7 @@ height: 200px;
     }
     .crew-image{
         border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding-right: 200px;
     }
     .content{
         flex-direction: column-reverse;
