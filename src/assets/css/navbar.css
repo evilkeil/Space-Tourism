@@ -133,9 +133,9 @@
         margin-left: 10px;
         margin-right: 10px;
        
+       
     }
     #main-nav li{
-        width: fit-content;
         height: 80px;
         text-align: center;
         display: flex;
@@ -145,6 +145,10 @@
     .logo::after{
         display: none;
     
+    }
+    #main-nav a{
+       font-size: 14px;
+       width: 100px;
     }
 }
 
@@ -176,7 +180,7 @@
         list-style: none;
         display: flex;
         align-items: center;
-        gap: 40px;
+        gap: 30px;
         margin-left: 15%;
         margin-right: 15%;
        
@@ -188,10 +192,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 90px;
+        
     }
     .logo::after{
         display: none;
     
+    }
+
+    .nav-number{
+        display: none;
+    }
+    .link{
+        font-size: 14px;
+        width: 90px;
     }
 }
 
@@ -280,5 +294,8 @@
     #navbar{
         margin: 0;
         /* border: 1px solid red; */
+    }
+    .link{
+        text-align: left;
     }
 }
