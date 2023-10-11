@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/evilkeil/Space-Tourism)
-- Live Site URL: [Add live site URL here](https://evilkeil.github.io/Space-Tourism/)
+- Solution URL: [https://github.com/evilkeil/Space-Tourism](https://github.com/evilkeil/Space-Tourism)
+- Live Site URL: [https://evilkeil.github.io/Space-Tourism/](https://evilkeil.github.io/Space-Tourism/)
 
 ## My process
 
@@ -41,7 +41,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
-- [Wbppack](https://webpack.js.org/) - JS library
+- [Webpack](https://webpack.js.org/) - JS library
 - [VanilaJs]
 
 
