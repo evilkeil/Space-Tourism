@@ -4,7 +4,7 @@
   "description": "Space Tourism multi page website created for Front end Mentor challange",
   "private": true,
   "repository": {
-    "url": "git+https://github.com/evilkeil/ Space-Tourism.git"
+    "url": "git+https://github.com/evilkeil/Space-Tourism.git"
   },
   "scripts": {
     "build": "webpack",
